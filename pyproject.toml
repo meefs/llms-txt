@@ -36,3 +36,6 @@ include = ["llms_txt"]
 allowed_metadata_keys = ['solveit']
 allowed_cell_metadata_keys = ['solveit_ai']
 custom_sidebar = true
+
+[tool.chkstyle]
+skip_paths = ["_modidx.py"]
